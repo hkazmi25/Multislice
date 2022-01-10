@@ -93,11 +93,11 @@ Transmission function for single Po atom
 -----------------
 
 '''
-# g=np.arange(0,2,0.1)
-# T= np.exp(1j*sigma*pjp)
-# ax5.plot(g,T, 'l')
-# ax5.set_title("Transmission function for single Po atom")
-# ax5.set_ylabel("Transmission fucntion (in radian)")
-# ax5.set_xlabel("radius(in angstrom)")
+g=np.arange(0,2,0.1)
+T= np.exp(1j*sigma*pjp)
+ax5.plot(g,T, 'l')
+ax5.set_title("Transmission function for single Po atom")
+ax5.set_ylabel("Transmission fucntion (in radian)")
+ax5.set_xlabel("radius(in angstrom)")
 
 plt.show()
